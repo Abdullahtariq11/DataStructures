@@ -1,0 +1,14 @@
+/Users/abdullahtariq/Documents/GitHub/DataStructures/DataStructures/bin/Debug/net8.0/DataStructures
+/Users/abdullahtariq/Documents/GitHub/DataStructures/DataStructures/bin/Debug/net8.0/DataStructures.deps.json
+/Users/abdullahtariq/Documents/GitHub/DataStructures/DataStructures/bin/Debug/net8.0/DataStructures.runtimeconfig.json
+/Users/abdullahtariq/Documents/GitHub/DataStructures/DataStructures/bin/Debug/net8.0/DataStructures.dll
+/Users/abdullahtariq/Documents/GitHub/DataStructures/DataStructures/bin/Debug/net8.0/DataStructures.pdb
+/Users/abdullahtariq/Documents/GitHub/DataStructures/DataStructures/obj/Debug/net8.0/DataStructures.GeneratedMSBuildEditorConfig.editorconfig
+/Users/abdullahtariq/Documents/GitHub/DataStructures/DataStructures/obj/Debug/net8.0/DataStructures.AssemblyInfoInputs.cache
+/Users/abdullahtariq/Documents/GitHub/DataStructures/DataStructures/obj/Debug/net8.0/DataStructures.AssemblyInfo.cs
+/Users/abdullahtariq/Documents/GitHub/DataStructures/DataStructures/obj/Debug/net8.0/DataStructures.csproj.CoreCompileInputs.cache
+/Users/abdullahtariq/Documents/GitHub/DataStructures/DataStructures/obj/Debug/net8.0/DataStructures.dll
+/Users/abdullahtariq/Documents/GitHub/DataStructures/DataStructures/obj/Debug/net8.0/refint/DataStructures.dll
+/Users/abdullahtariq/Documents/GitHub/DataStructures/DataStructures/obj/Debug/net8.0/DataStructures.pdb
+/Users/abdullahtariq/Documents/GitHub/DataStructures/DataStructures/obj/Debug/net8.0/DataStructures.genruntimeconfig.cache
+/Users/abdullahtariq/Documents/GitHub/DataStructures/DataStructures/obj/Debug/net8.0/ref/DataStructures.dll
