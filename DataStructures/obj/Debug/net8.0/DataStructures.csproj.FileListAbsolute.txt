@@ -12,3 +12,4 @@
 /Users/abdullahtariq/Documents/GitHub/DataStructures/DataStructures/obj/Debug/net8.0/DataStructures.pdb
 /Users/abdullahtariq/Documents/GitHub/DataStructures/DataStructures/obj/Debug/net8.0/DataStructures.genruntimeconfig.cache
 /Users/abdullahtariq/Documents/GitHub/DataStructures/DataStructures/obj/Debug/net8.0/ref/DataStructures.dll
+/Users/abdullahtariq/Documents/GitHub/DataStructures/DataStructures/obj/Debug/net8.0/DataStructures.sourcelink.json
