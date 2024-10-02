@@ -121,16 +121,72 @@ void InsertionSort(int[] arr)
     for (int i = 0; i < arr.Length; ++i)
     {
         int key = arr[i]; //store the current value
-        int j=i-1;
+        int j = i - 1;
 
-        while (j >= 0 && arr[j]>key) //move element in array that are greater than the key until key is greater or j is zero
+        while (j >= 0 && arr[j] > key) //move element in array that are greater than the key until key is greater or j is zero
         {
-            arr[j+1] = arr[j];
-            j=j-1;
+            arr[j + 1] = arr[j];
+            j = j - 1;
         }
-        arr[j+1]=key; //place the key in correct position
+        arr[j + 1] = key; //place the key in correct position
 
     }
 }
-InsertionSort(arr);
+//InsertionSort(arr);
+
+// Merge Sort
+
+int[] MergeSort(int[] arr)
+{
+    if (arr.Length <= 1) //base case
+    {
+        return arr;
+    }
+    int mid= arr.Length/2;
+    int[] arrLeft = new int[mid];
+    int[] arrRight = new int[arr.Length-mid];
+    //split arrays
+    for (int i = 0; i < mid; i++)
+    {
+            arrLeft[i] = arr[i];
+    }
+    for (int i = mid; i < arr.Length; i++)
+    {
+            arrRight[i-mid] = arr[i];
+    }
+    return Merge(MergeSort(arrLeft), MergeSort(arrRight));
+
+}
+
+//Merge Array
+int[] Merge(int[] arrLeft, int[] arrRight)
+{
+    int MergeLength = arrLeft.Length + arrRight.Length;
+    int[] arr = new int[MergeLength];
+    int j = 0;
+    int k = 0;
+    int i = 0;
+    for (; k< arrLeft.Length && j< arrRight.Length; i++) // compare the arrays until one is exhausted
+    {
+        if (arrLeft[k] < arrRight[j])
+        {
+            arr[i] = arrLeft[k];
+            k++;
+        }
+        else 
+        {
+            arr[i] = arrRight[j];
+            j++;
+        }
+    }
+    while (k < arrLeft.Length) // add remaining left element
+    {
+        arr[i++]=arrLeft[k++];
+    }
+    while (j < arrRight.Length) // add remaining right element
+    {
+        arr[i++]=arrRight[j++];
+    }
+    return arr;
+}
 
