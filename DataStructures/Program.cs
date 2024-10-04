@@ -190,3 +190,41 @@ int[] Merge(int[] arrLeft, int[] arrRight)
     return arr;
 }
 
+// Quick Sort
+void QuickSort(int [] arr)
+{
+     QuickSortAlg(arr, 0, arr.Length-1);
+}
+
+void QuickSortAlg(int [] arr,int low,int high)    
+{
+    if(low < high)
+    {
+        int pivotIndex=Partition(arr, low, high);
+
+        QuickSortAlg(arr, low,pivotIndex-1);
+        QuickSortAlg(arr, pivotIndex+1,high);
+    }
+
+}
+int Partition(int [] arr,int low,int high)
+{
+    int pivot= arr[high]; //chose last element
+    int i=low-1;
+    for (int j=low; j<high; j++)
+    {
+       
+        if(arr[j] <= pivot) //if value at current index lower than the pivot
+        {
+            i++;
+            int temp=arr[i];
+            arr[i]=arr[j];
+            arr[j] = temp;  
+        }
+    }
+    int tempPivot=arr[i+1];
+    arr[i+1]=arr[high];
+    arr[high]=tempPivot;
+
+    return i+1; // return pivot index
+}
